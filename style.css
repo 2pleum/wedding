@@ -99,7 +99,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .full-screen-container {
+    #timer p {
         width: 70px; /* กำหนดความกว้าง */
         height: 70px; /* กำหนดความสูง */
     }
