@@ -10,23 +10,23 @@ body {
 
 .full-screen-container {
     width: 100%;
-    height: 100vh;         /* ความสูงเต็มหน้าจอ */
-    background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
-    background-size: 100% auto;  /* ปรับขนาดความกว้างตามหน้าจอ ความสูงอัตโนมัติ */
-    background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
-    background-repeat: no-repeat; /* ห้ามให้ภาพซ้ำ */
-    background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
+    height: 100vh;         
+    background-image: url('10draf1.jpg');  
+    background-size: 100% auto;  
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
     .full-screen-container {
         width: 100%;
-        height: 100vh;   /* กำหนดความสูงให้เต็มหน้าจอ */
-        background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
-        background-size: 100% auto;  /* ปรับขนาดความกว้างตามหน้าจอ ความสูงอัตโนมัติ */
-        background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
-        background-repeat: no-repeat; /* ห้ามให้ภาพซ้ำ */
-        background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
+        height: 100vh;   
+        background-image: url('10draf1.jpg');  
+        background-size: 100% auto;  
+        background-position: center;  
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
     }
 }
 
