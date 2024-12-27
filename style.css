@@ -104,10 +104,6 @@ body {
     padding-left: 10px;
 }
 
-.part4 {
-    margin-bottom: 100px;
-}
-
 .part4 h2 {
     font-family: 'Times New Roman', serif;
     margin-top: 50px;
@@ -156,52 +152,30 @@ body {
     background-color: #f69697; 
 }
 
-.map-name .row {
-    display: flex;
-    justify-content: space-around; /* จัดให้แต่ละคอลัมน์มีระยะห่าง */
-    align-items: center; /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
-    flex-wrap: wrap; /* ให้ย่อขนาดและลงไปอีกแถวถ้าพื้นที่ไม่พอ */
-    gap: 20px; /* เพิ่มระยะห่างระหว่างคอลัมน์ */
-}
-
-.map-name .col-xl-4,
-.map-name .col-lg-6,
-.map-name .col-md-6 {
-    flex: 1; /* ให้คอลัมน์แต่ละอันปรับขนาดตามพื้นที่ */
-    text-align: center; /* จัดให้อยู่ตรงกลาง */
-    max-width: 30%; /* กำหนดความกว้างสูงสุดต่อคอลัมน์ */
-    margin: 10px; /* เว้นระยะรอบคอลัมน์ */
-}
-
-@media (max-width: 768px) {
-    .map-name .col-xl-4 {
-        max-width: 100%; /* กำหนดความกว้างให้เต็ม 100% บนหน้าจอมือถือ */
-    }
-    .map-name .col-lg-6 {
-        max-width: 100%;
-    }
-    .map-name .col-md-6 {
-        max-width: 100%;
-    }
-    .map-name .col-sm-12 {
-        max-width: 100%;
-    }
-}
-
 .map-container {
+    display: flex; /* ใช้ Flexbox */
+    flex-direction: column; /* วางองค์ประกอบในแนวตั้ง */
+    justify-content: center; /* จัดให้อยู่กลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
     padding: 10px;
+    height: 100vh; /* ใช้ความสูงของหน้าจอ */
 }
 
 .map-container iframe {
+    display: block;
     width: 100%; /* ปรับ iframe ให้พอดีกับคอลัมน์ */
     max-width: 400px; /* กำหนดขนาดสูงสุด */
-    height: auto;
+    height: 250px;
+    padding: 20px;
 }
 
-.map-name h4 {
+.map-container h4 {
+    padding-top: 0px;
+    display: block;
     font-family: "Arial", sans-serif; /* ตัวอย่างฟอนต์ใหม่ */
     font-size: 16px; /* ขนาดฟอนต์ */
     text-align: center; /* จัดข้อความให้อยู่กลาง */
     margin: 0; /* ลบระยะห่างรอบตัว */
 }
+
 
