@@ -9,10 +9,11 @@ body {
 }
 
 .full-screen-container {
-    width: 100%;      
+    width: 100%;
+    height: 100vh;         
     background-image: url('10draf1.jpg');  
     background-size: 100% auto;  
-    background-position: bottom;  
+    background-position: center;  
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
@@ -22,7 +23,6 @@ body {
 @media (max-width: 768px) {
     .full-screen-container {
         width: 100%;
-        min-height: 100vh;
         background-size: 100% auto;  
         background-position: center;  
         background-repeat: no-repeat; 
