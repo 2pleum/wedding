@@ -167,8 +167,7 @@ body {
 
 .map-name .col-xl-4,
 .map-name .col-lg-6,
-.map-name .col-md-6,
-.map-name .col-sm-12 {
+.map-name .col-md-6 {
     flex: 1; /* ให้คอลัมน์แต่ละอันปรับขนาดตามพื้นที่ */
     text-align: center; /* จัดให้อยู่ตรงกลาง */
     max-width: 30%; /* กำหนดความกว้างสูงสุดต่อคอลัมน์ */
