@@ -27,3 +27,13 @@ body {
         background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
     }
 }
+.part2 {
+    text-align: center;
+}
+.part2 h2 {
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color: darkred;
+    
+}
