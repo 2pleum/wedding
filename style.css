@@ -157,16 +157,32 @@ body {
     background-color: #f69697; 
 }
 
-.map-name {
+.map-name .row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around; /* จัดให้แต่ละคอลัมน์มีระยะห่าง */
+    align-items: center; /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+    flex-wrap: wrap; /* ให้ย่อขนาดและลงไปอีกแถวถ้าพื้นที่ไม่พอ */
+    gap: 20px; /* เพิ่มระยะห่างระหว่างคอลัมน์ */
 }
 
-.map-name img {
-    padding-top: 40px;
-    padding-right: 20px;
-    width: 50px;
+.map-name .col-xl-4,
+.map-name .col-lg-6,
+.map-name .col-md-6,
+.map-name .col-sm-12 {
+    flex: 1; /* ให้คอลัมน์แต่ละอันปรับขนาดตามพื้นที่ */
+    text-align: center; /* จัดให้อยู่ตรงกลาง */
+    max-width: 30%; /* กำหนดความกว้างสูงสุดต่อคอลัมน์ */
+    margin: 10px; /* เว้นระยะรอบคอลัมน์ */
+}
+
+.map-container {
+    padding: 10px;
+}
+
+.map-container iframe {
+    width: 100%; /* ปรับ iframe ให้พอดีกับคอลัมน์ */
+    max-width: 400px; /* กำหนดขนาดสูงสุด */
+    height: auto;
 }
 
 .map-name h4 {
@@ -176,22 +192,3 @@ body {
     margin: 0; /* ลบระยะห่างรอบตัว */
 }
 
-iframe {
-    padding: 10px;
-    padding-right: 40px;
-    padding-bottom: 50px;
-}
-
-.map-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-a {
-    display: inline-block;
-    padding: 10px; 
-    border: 2px solid darkred; 
-    border-radius: 8px;
-    font-size: 10px;
-}
