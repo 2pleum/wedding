@@ -5,41 +5,10 @@ body {
     /* overlay: 0.5; */
 }
 
-@media (max-width: 768px) {
-    .part1 h1 {
-        font-size: 30px; /* ลดขนาดฟอนต์สำหรับมือถือ */
-        padding: 10px;   /* ลด Padding */
-        height: auto;    /* ปรับความสูงให้เหมาะสม */
-        color: white;
-        /* margin: 20px; */
-        font-family: "Lucida Handwriting", cursive;
-        background-image: url('10.JPEG');
-        background-size: cover;
-        background-position: center; 
-        background-attachment: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        height: 100vh;
-        text-align: center;
-        padding: 20px
-    }
-}
-
-.part1 h1 {
-    color: white;
-    font-family: "Lucida Handwriting", cursive;
-    font-size: 50px;
-    background-image: url('10.JPEG');
-    background-size: cover; /* ปรับขนาดให้เต็ม */
-    background-position: center; /* จัดให้อยู่ตรงกลาง */
-    background-repeat: no-repeat; /* ป้องกันการซ้ำ */
-    background-attachment: fixed; /* ยึดภาพไว้กับหน้าจอ (optional) */
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100vh; /* เต็มความสูงหน้าจอ */
-    text-align: center;
-    padding: 20px;
+.full-screen-image {
+    width: 100%;  
+    height: 100vh;  
+    object-fit: cover;
+    object-position: center;
 }
 
