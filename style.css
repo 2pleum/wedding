@@ -10,17 +10,12 @@ body {
 
 .full-screen-image {
     width: 100%;        /* ความกว้างเต็มหน้าจอ */
-    height: auto;       /* ความสูงปรับตามสัดส่วน */
-    object-fit: cover;  /* ทำให้ภาพครอบคลุมพื้นที่ */
+    height: 100vh;      /* ความสูงเต็มหน้าจอ */
+    object-fit: cover;  /* ให้ภาพครอบคลุมพื้นที่ */
     object-position: center; /* จัดภาพให้อยู่ตรงกลาง */
     display: block;
-}
-
-/* สำหรับมือถือ */
-@media (max-width: 768px) {
-    .full-screen-image {
-        width: 100%;   /* กว้างเต็มหน้าจอ */
-        height: auto;  /* ความสูงปรับตามสัดส่วน */
-    }
+    margin: 0;           /* ลบ margin */
+    max-width: 100%;     /* ไม่ให้ภาพเกินขนาดหน้าจอ */
+    max-height: 100vh;   /* ป้องกันไม่ให้ความสูงเกิน 100vh */
 }
 
