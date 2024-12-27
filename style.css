@@ -104,6 +104,10 @@ body {
     padding-left: 10px;
 }
 
+.part4 {
+    margin-bottom: 50px; /* ลดระยะห่างจากส่วนถัดไป */
+}
+
 .part4 h2 {
     font-family: 'Times New Roman', serif;
     margin-top: 50px;
@@ -136,7 +140,7 @@ body {
     width: 50px; /* ขนาดของวงกลม */
     height: 50px;
     border-radius: 50%; /* ทำให้เป็นวงกลม */
-    border: 1px solid white; /* ขอบสีขาว */
+    /* border: 1px solid white; */
     margin: 0 20px; /* ระยะห่างระหว่างวงกลม */
 }
 
@@ -153,16 +157,18 @@ body {
 }
 
 .map-container {
-    display: flex; /* ใช้ Flexbox */
-    flex-direction: column; /* วางองค์ประกอบในแนวตั้ง */
-    justify-content: center; /* จัดให้อยู่กลางแนวนอน */
-    align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+    margin-top: 20px; /* ลดระยะห่างจาก .part4 */ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    height: 100vh; /* ใช้ความสูงของหน้าจอ */
+    display: flex;
 }
 
 .map-container iframe {
     display: block;
+    justify-content: center;
+    align-items: center;
     width: 100%; /* ปรับ iframe ให้พอดีกับคอลัมน์ */
     max-width: 400px; /* กำหนดขนาดสูงสุด */
     height: 250px;
@@ -170,6 +176,8 @@ body {
 }
 
 .map-container h4 {
+    justify-content: center;
+    align-items: center;
     padding-top: 0px;
     padding-bottom: 20px;
     display: block;
@@ -180,6 +188,7 @@ body {
 }
 
 a {
+    text-align: center;
     padding-top: 20px;
 }
 
