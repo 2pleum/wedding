@@ -27,6 +27,8 @@ body {
         background-size: 100% auto;  
         background-position: center;  
         background-repeat: no-repeat; 
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -34,9 +36,7 @@ body {
 .part2, .part3, .part4 {
     text-align: center;
 }
-.part2 {
-    margin-top: 0px;
-}
+
 .part2 h2 {
     font-family: 'Times New Roman', serif;
     margin-top: 50px;
