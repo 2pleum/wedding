@@ -10,28 +10,25 @@ body {
 
 .full-screen-container {
     width: 100%;
-    height: 100vh;         
-    background-image: url('10draf1.jpg');  
-    background-size: 100% auto;  
-    background-position: center;  
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 100vh;      /* ความสูงเต็มหน้าจอ */
+    background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
+    background-size: cover;  /* ให้ภาพครอบคลุมพื้นที่ */
+    background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
+    background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
 }
 
 @media (max-width: 768px) {
     .full-screen-container {
         width: 100%;
-        height: 100vh;   
-        background-image: url('10draf1.jpg');  
-        background-size: 100% auto;  
-        background-position: center;  
-        background-repeat: no-repeat; 
-        background-attachment: fixed; 
+        height: 100vh;      /* ความสูงเต็มหน้าจอ */
+        background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
+        background-size: contain;
+        background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
+        background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
     }
 }
 
-
-.part2, .part3 {
+.part2, .part3, .part4 {
     text-align: center;
 }
 
@@ -94,4 +91,25 @@ body {
 #timer p span {
     font-size: 0.5em;
     padding-left: 10px;
+}
+
+.part4 h2 {
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color: darkred;
+}
+
+.part4 h4 {
+    font-size: 18px;
+    margin: 30px;
+}
+
+.part4 p {
+    margin: 20px;
+}
+
+.part4 img {
+    width: 200px;
+    height: auto;
 }
