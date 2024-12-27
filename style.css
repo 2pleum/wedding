@@ -13,7 +13,7 @@ body {
     height: 100vh;  
     background-image: url('10draf1.jpg');   
     background-size: 100% auto;  
-    background-position: bottom;  
+    background-position: center;  
     background-repeat: no-repeat; 
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ body {
     .full-screen-container {
         width: 100%;
         background-size: 100% auto;  
-        background-position: bottom;  
+        background-position: center;  
         background-repeat: no-repeat; 
     }
 }
