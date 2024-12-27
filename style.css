@@ -24,7 +24,7 @@ body {
     .full-screen-container {
         width: 100%;
         background-size: 100% auto;  
-        background-position: center;  
+        background-position: bottom;  
         background-repeat: no-repeat; 
     }
 }
