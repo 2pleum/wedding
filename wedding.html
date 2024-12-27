@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>#MPDewAjourneyOfAthousandMiles</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <h1>Hello</h1>
+        </div>
+    </div>
+    <!-- <div class="part1">
+        <h1>#MPDewAjourneyOfAthousandMiles<br>22.02.2025</h1>
+     </div>
+     <div class="part2">
+        <h2>FIRST CLASS, BOARDING PASS</h2>
+        <h4>Ladies and gentlemen welcome to the wedding of</h4>
+        <h1>Kantiya & Pongsakorn</h1>
+        <p>เราขอใช้การ์ดออนไลน์นี้เป็นอีกหนึ่งช่องทางการเรียนเชิญทุกท่านแทนการเชิญด้วยการ์ดกระดาษ</p>
+        <p>ขอส่งต่อความรัก ที่ไม่ได้น้อยลงไปกว่าเดิม…<br>
+            รักทุกท่านด้วยหัวใจ</p>
+    </div>
+    <div class="part3">
+        <h2>TIME IS TICKING</h2>
+        <h4>Please join us in celebrating our love and marriage, countdown in…</h4>
+        <div class="countdown">
+            <div id="timer">
+                <p id="days">0<span>d</span></p>
+                <p id="hours">0<span>h</span></p>
+                <p id="minutes">0<span>m</span></p>
+                <p id="seconds">0<span>s</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="part4">
+        <h2>WEDDING SCHEDULE</h2>
+        <h4>────୨ৎ────  วันเสาร์ที่ 22 กุมภาพันธ์ พ.ศ. 2568  ────୨ৎ────</h4>
+        <div class="schedule1">
+            <img src="1.png">
+            <p>14.00 น. แห่ขันหมาก พิธีหมั้น</p>
+            <img src="2.png">
+            <p>15.30 น. รดน้ำสังข์</p>
+        </div>
+        <div class="schedule2">
+            <img src="3.png">
+            <p>17.30 น. พิธีฉลอง มงคลสมรส</p>
+        </div>
+        <div class="schedule3">
+            <img src="4.png">
+            <p>18.30 น. ร่วมรับประทานอาหาร (โต๊ะจีน)</p>
+            <img src="5.png">
+            <p>21.00 น. After party</p>
+        </div>
+        <h2>THEME COLOR</h2>
+        <div class="circle-container">
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+            <div class="circle circle3"></div>
+        </div>
+    </div>
+    <div class="map-name">
+        <img src="map.png">
+        <h4>ณ สมาคมธรรมศาสตร์ สาทร / Thammasat Association</h4>
+    </div>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.9901767307606!2d100.54153672508966!3d13.719044436669428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f3bac481ef9%3A0xa2f0cf62bcc49d38!2z4Liq4Lih4Liy4LiE4Lih4LiY4Lij4Lij4Lih4Lio4Liy4Liq4LiV4Lij4LmMIOC5g-C4meC4nuC4o-C4sOC4muC4o-C4oeC4o-C4suC4iuC4ueC4m-C4luC4seC4oeC4oOC5jA!5e0!3m2!1sth!2sth!4v1733585284226!5m2!1sth!2sth"
+        width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="https://maps.app.goo.gl/rE9cEdyKk4N9USNz8">Click to open map</a>
+    </div>
+
+    <div class="special-gallery">
+    </div>
+
+    <div class="pic1">
+        <img src="1.jpg">
+        <img src="9.jpg">
+    </div>
+
+    <div class="pic2">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="4.jpg">
+        <img src="6.jpg">
+    </div> -->
+
+    <script>
+        // Set the date we're counting down to
+        const countDownDate = new Date("Feb 22, 2025 00:00:00").getTime();
+
+        // Update the countdown every 1 second
+        const interval = setInterval(function() {
+
+            // Get the current date and time
+            const now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            const distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes, and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the elements
+            document.getElementById("days").innerHTML = days + "<span>d</span>";
+            document.getElementById("hours").innerHTML = hours + "<span>h</span>";
+            document.getElementById("minutes").innerHTML = minutes + "<span>m</span>";
+            document.getElementById("seconds").innerHTML = seconds + "<span>s</span>";
+
+            // If the countdown is finished, display a message
+            if (distance < 0) {
+                clearInterval(interval);
+                document.getElementById("timer").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+</body>
+</html>
+
+

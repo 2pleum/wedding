@@ -1,0 +1,196 @@
+body {
+    font-family: caption;
+    background-image: url('11.jpg');
+    background-size: cover;
+    /* overlay: 0.5; */
+}
+
+.part1 h1 {
+    color: white;
+    /* margin: 20px; */
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 50px;
+    background-image: url('10.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    text-align: center;
+    padding: 20px
+}
+
+.part2, .part3, .part4 {
+    text-align: center;
+}
+
+.part2 h2 {
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color: darkred;
+    
+}
+
+.part2 h1 {
+    font-family: "Lucida Handwriting", cursive;
+    margin: 50px;
+    font-size: 60px;
+}
+
+.part2 h4, .map-name h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.part2 p {
+    margin-top: 30px;
+}
+
+.part3 h2 {
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color: darkred;
+}
+
+.part3 h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.countdown {
+    text-align: center;
+    padding: 40px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 4em;
+}
+
+#timer p {
+    background-color: #e09bae;
+    color: #ffffff;
+    padding: 50px 100px;
+    border-radius: 50px;
+}
+
+#timer p span {
+    font-size: 0.5em;
+    padding-left: 10px;
+}
+
+.part4 h2 {
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color: darkred;
+}
+
+.part4 h4 {
+    font-size: 18px;
+    margin: 30px;
+}
+
+.part4 p {
+    margin: 20px;
+}
+
+.part4 img {
+    width: 200px;
+    height: auto;
+}
+
+.schedule1, .schedule3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 100px; /* ขนาดของวงกลม */
+    height: 100px;
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    border: 1px solid white; /* ขอบสีขาว */
+    margin: 0 20px; /* ระยะห่างระหว่างวงกลม */
+}
+
+.circle1 {
+    background-color: #c30010; 
+}
+
+.circle2 {
+    background-color: #ff2c2c;  
+}
+
+.circle3 {
+    background-color: #f69697; 
+}
+
+.map-name img {
+    padding-top: 40px;
+    padding-right: 20px;
+    width: 100px;
+}
+
+.map-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    padding: 10px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    display: inline-block;
+    padding: 10px; 
+    border: 2px solid darkred; 
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.special-gallery {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    height: 48vh;
+}
+
+.pic1, .pic2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic1 img {
+    /* padding: 50px; */
+    width: 750px;
+}
+
+.pic2 img {
+    /* padding: 50px; */
+    width: 360px;
+}
