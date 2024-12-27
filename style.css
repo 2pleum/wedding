@@ -6,8 +6,8 @@ body {
 }
 
 .full-screen-image {
-    width: 100%;      
-    height: auto;     
+    height: 100%;   
+    width: auto;     
     max-width: 100%;  
     object-fit: cover; 
     object-position: center; 
@@ -15,9 +15,9 @@ body {
 
 @media (max-width: 768px) {
     .full-screen-image {
-        width: 100%;    /* ปรับขนาดให้เต็มหน้าจอ */
-        height: auto;   /* คงสัดส่วนของภาพ */
-        object-fit: contain; /* ใช้ object-fit: contain แทน cover เพื่อให้ภาพไม่ถูกตัด */
+        height: 100%;   
+        width: auto;    
+        object-fit: contain; 
     }
 }
 
