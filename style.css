@@ -33,7 +33,7 @@ body {
 }
 
 
-.part2 {
+.part2, .part3 {
     text-align: center;
 }
 
@@ -59,4 +59,41 @@ body {
 
 .part2 p {
     margin-top: 30px;
+}
+
+.part3 h2 {
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color: darkred;
+}
+
+.part3 h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.countdown {
+    text-align: center;
+    padding: 40px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 4em;
+}
+
+#timer p {
+    background-color: #e09bae;
+    color: #ffffff;
+    padding: 50px 100px;
+    border-radius: 50px;
+}
+
+#timer p span {
+    font-size: 0.5em;
+    padding-left: 10px;
 }
