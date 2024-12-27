@@ -181,6 +181,10 @@ iframe {
     align-items: center;
 }
 
+.map-name {
+    font-family: 'Times New Roman', serif;
+}
+
 a {
     font-family: 'Times New Roman', serif;
     display: inline-block;
