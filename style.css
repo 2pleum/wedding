@@ -18,7 +18,7 @@ body {
     .full-screen-image {
         width: 100vh;    /* ทำให้กว้างเต็มหน้าจอ */
         height: auto;   /* ทำให้สูงเต็มหน้าจอ */
-        object-fit: cover; /* หรือ contain ขึ้นอยู่กับลักษณะของภาพ */
+        object-fit: contain; /* หรือ contain ขึ้นอยู่กับลักษณะของภาพ */
     }
 }
 
