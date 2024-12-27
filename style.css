@@ -21,7 +21,7 @@ body {
 @media (max-width: 768px) {
     .full-screen-container {
         width: 100%;
-        min-height: 100vh;   /* กำหนดความสูงให้เต็มหน้าจอ */
+        height: 100vh;   /* กำหนดความสูงให้เต็มหน้าจอ */
         background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
         background-size: 100% auto;  /* ปรับขนาดความกว้างตามหน้าจอ ความสูงอัตโนมัติ */
         background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
