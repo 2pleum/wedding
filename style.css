@@ -9,20 +9,18 @@ body {
 }
 
 .full-screen-image {
-    width: 100%;      /* กำหนดให้ภาพเต็มความกว้างของหน้าจอ */
-    height: 100vh;    /* ความสูงเต็มหน้าจอ */
-    object-fit: cover; /* ให้ภาพครอบคลุมพื้นที่ */
-    object-position: center; /* จัดให้อยู่ตรงกลาง */
-    display: block;   /* ป้องกันช่องว่าง */
-    margin: 0;         /* ลบ margin */
+    width: 100%;        /* ความกว้างเต็มหน้าจอ */
+    height: auto;       /* ความสูงปรับตามสัดส่วน */
+    object-fit: cover;  /* ทำให้ภาพครอบคลุมพื้นที่ */
+    object-position: center; /* จัดภาพให้อยู่ตรงกลาง */
+    display: block;
 }
 
-/* สำหรับหน้าจอที่เล็ก (มือถือ) */
+/* สำหรับมือถือ */
 @media (max-width: 768px) {
     .full-screen-image {
-        width: 100%;
-        height: 100vh;
-        object-fit: cover; /* หรือ contain ขึ้นอยู่กับการแสดงผล */
+        width: 100%;   /* กว้างเต็มหน้าจอ */
+        height: auto;  /* ความสูงปรับตามสัดส่วน */
     }
 }
 
