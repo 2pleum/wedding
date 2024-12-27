@@ -34,7 +34,9 @@ body {
 .part2, .part3, .part4 {
     text-align: center;
 }
-
+.part2 {
+    margin-top: 0px;
+}
 .part2 h2 {
     font-family: 'Times New Roman', serif;
     margin-top: 50px;
