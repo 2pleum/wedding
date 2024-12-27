@@ -78,7 +78,7 @@ body {
 
 #timer {
     /* width: 50px; */
-    font-family: "Courier New", monospace;
+    /* font-family: "Courier New", monospace; */
     padding: 5px;
     display: flex;
     justify-content: center;
