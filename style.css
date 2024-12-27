@@ -134,8 +134,8 @@ body {
 }
 
 .circle {
-    width: 100px; /* ขนาดของวงกลม */
-    height: 100px;
+    width: 50px; /* ขนาดของวงกลม */
+    height: 50px;
     border-radius: 50%; /* ทำให้เป็นวงกลม */
     border: 1px solid white; /* ขอบสีขาว */
     margin: 0 20px; /* ระยะห่างระหว่างวงกลม */
