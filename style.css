@@ -5,6 +5,14 @@ body {
     /* overlay: 0.5; */
 }
 
+@media (max-width: 768px) {
+    .part1 h1 {
+        font-size: 30px; /* ลดขนาดฟอนต์สำหรับมือถือ */
+        padding: 10px;   /* ลด Padding */
+        height: auto;    /* ปรับความสูงให้เหมาะสม */
+    }
+}
+
 .part1 h1 {
     color: white;
     /* margin: 20px; */
