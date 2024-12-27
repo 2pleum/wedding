@@ -98,13 +98,6 @@ body {
     border-radius: 50px; /* มุมโค้ง */
 }
 
-@media (max-width: 768px) {
-    #timer p {
-        width: 70px; /* กำหนดความกว้าง */
-        height: 70px; /* กำหนดความสูง */
-    }
-}
-
 
 #timer p span {
     font-size: 0.5em;
