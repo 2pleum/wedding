@@ -85,11 +85,17 @@ body {
 }
 
 #timer p {
-    background-color: #e09bae;
-    color: #ffffff;
-    padding: 50px 100px;
-    border-radius: 50px;
+    display: flex; /* ใช้ Flexbox */
+    justify-content: center; /* จัดให้อยู่กลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    background-color: #e09bae; /* สีพื้นหลัง */
+    color: #ffffff; /* สีข้อความ */
+    width: 380px; /* กำหนดความกว้าง */
+    height: 280px; /* กำหนดความสูง */
+    border-radius: 50px; /* มุมโค้ง */
 }
+
 
 #timer p span {
     font-size: 0.5em;
