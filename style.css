@@ -19,6 +19,11 @@ body {
 
 @media (max-width: 768px) {
     .full-screen-container {
+        width: 100%;
+        height: 100vh;      /* ความสูงเต็มหน้าจอ */
+        background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
         background-size: contain;
+        background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
+        background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
     }
 }
