@@ -6,7 +6,7 @@ body {
 }
 
 .full-screen-image {
-    width: 100%;      /* ทำให้กว้างเต็มหน้าจอ */
+    width: 100vh;      /* ทำให้กว้างเต็มหน้าจอ */
     height: 100vh;    /* ทำให้สูงเต็มหน้าจอ */
     object-fit: cover; /* ปรับขนาดให้พอดีกับพื้นที่ */
     object-position: center; /* จัดให้อยู่ตรงกลาง */
@@ -16,7 +16,7 @@ body {
 
 @media (max-width: 768px) {
     .full-screen-image {
-        width: 100%;    /* ทำให้กว้างเต็มหน้าจอ */
+        width: 100vh;    /* ทำให้กว้างเต็มหน้าจอ */
         height: 100vh;   /* ทำให้สูงเต็มหน้าจอ */
         object-fit: cover; /* หรือ contain ขึ้นอยู่กับลักษณะของภาพ */
     }
