@@ -98,7 +98,6 @@ body {
     border-radius: 50px; /* มุมโค้ง */
 }
 
-
 #timer p span {
     font-size: 0.5em;
     padding-left: 10px;
@@ -178,13 +177,19 @@ body {
 .map-container h4 {
     justify-content: center;
     align-items: center;
-    padding-top: 0px;
+    padding-top: 20px;
     padding-bottom: 20px;
     display: block;
     font-family: "Arial", sans-serif; /* ตัวอย่างฟอนต์ใหม่ */
     font-size: 16px; /* ขนาดฟอนต์ */
     text-align: center; /* จัดข้อความให้อยู่กลาง */
     margin: 0; /* ลบระยะห่างรอบตัว */
+}
+
+.map-container h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 25px;
+    color: darkred;
 }
 
 a {
