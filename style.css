@@ -8,14 +8,12 @@ body {
     /* overlay: 0.5; */
 }
 
-.full-screen-image {
-    width: 100%;        /* ความกว้างเต็มหน้าจอ */
+.full-screen-container {
+    width: 100%;
     height: 100vh;      /* ความสูงเต็มหน้าจอ */
-    object-fit: cover;  /* ให้ภาพครอบคลุมพื้นที่ */
-    object-position: center; /* จัดภาพให้อยู่ตรงกลาง */
-    display: block;
-    margin: 0;           /* ลบ margin */
-    max-width: 100%;     /* ไม่ให้ภาพเกินขนาดหน้าจอ */
-    max-height: 100vh;   /* ป้องกันไม่ให้ความสูงเกิน 100vh */
+    background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
+    background-size: cover;  /* ให้ภาพครอบคลุมพื้นที่ */
+    background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
+    background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
 }
 
