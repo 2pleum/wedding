@@ -27,13 +27,31 @@ body {
         background-attachment: fixed;  /* ภาพไม่เลื่อนขณะเลื่อนหน้าจอ */
     }
 }
+
 .part2 {
     text-align: center;
 }
+
 .part2 h2 {
     font-family: 'Times New Roman', serif;
     margin-top: 50px;
     font-size: 25px;
     color: darkred;
     
+}
+
+.part2 h1 {
+    font-family: "Lucida Handwriting", cursive;
+    margin: 50px;
+    font-size: 60px;
+}
+
+.part2 h4, .map-name h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.part2 p {
+    margin-top: 30px;
 }
