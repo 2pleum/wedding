@@ -10,7 +10,7 @@ body {
 
 .full-screen-container {
     width: 100%;
-    height: 100vh;      /* ความสูงเต็มหน้าจอ */
+    height: auto;      /* ความสูงเต็มหน้าจอ */
     background-image: url('10draf1.jpg');  /* ใช้ภาพพื้นหลัง */
     background-size: cover;  /* ให้ภาพครอบคลุมพื้นที่ */
     background-position: center;  /* จัดภาพให้อยู่ตรงกลาง */
