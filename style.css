@@ -25,7 +25,7 @@ body {
         width: 100%;
         min-height: 100vh;
         background-size: 100% auto;  
-        background-position: top;  
+        background-position: center;  
         background-repeat: no-repeat; 
     }
 }
@@ -157,16 +157,23 @@ body {
     background-color: #f69697; 
 }
 
-.map-name img {
-    padding-top: 40px;
-    padding-right: 20px;
-    width: 70px;
-}
-
 .map-name {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.map-name img {
+    padding-top: 40px;
+    padding-right: 20px;
+    width: 50px;
+}
+
+.map-name h4 {
+    font-family: "Arial", sans-serif; /* ตัวอย่างฟอนต์ใหม่ */
+    font-size: 16px; /* ขนาดฟอนต์ */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    margin: 0; /* ลบระยะห่างรอบตัว */
 }
 
 iframe {
