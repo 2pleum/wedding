@@ -173,6 +173,21 @@ body {
     margin: 10px; /* เว้นระยะรอบคอลัมน์ */
 }
 
+@media (max-width: 768px) {
+    .map-name .col-xl-4 {
+        max-width: 100%; /* กำหนดความกว้างให้เต็ม 100% บนหน้าจอมือถือ */
+    }
+    .map-name .col-lg-6 {
+        max-width: 100%;
+    }
+    .map-name .col-md-6 {
+        max-width: 100%;
+    }
+    .map-name .col-sm-12 {
+        max-width: 100%;
+    }
+}
+
 .map-container {
     padding: 10px;
 }
