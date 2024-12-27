@@ -94,8 +94,8 @@ body {
     text-align: center; /* จัดข้อความให้อยู่กลาง */
     background-color: #e09bae; /* สีพื้นหลัง */
     color: #ffffff; /* สีข้อความ */
-    width: 280px; /* กำหนดความกว้าง */
-    height: 200px; /* กำหนดความสูง */
+    width: 180px; /* กำหนดความกว้าง */
+    height: 180px; /* กำหนดความสูง */
     border-radius: 50px; /* มุมโค้ง */
 }
 
