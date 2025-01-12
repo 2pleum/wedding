@@ -197,3 +197,22 @@ a {
     padding-top: 20px;
 }
 
+/* .special-gallery {
+    justify-content: center;
+    align-items: center;
+} */
+
+.special-gallery img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color: darkred;
+}
