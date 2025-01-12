@@ -29,8 +29,13 @@ body {
     }
 }
 
+.final h1 {
+    margin: 20px;
+    color: palevioletred;
+    font-family: "Lucida Handwriting", cursive;
+}
 
-.part2, .part3, .part4 {
+.part2, .part3, .part4, .final {
     text-align: center;
 }
 
